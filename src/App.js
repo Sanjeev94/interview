@@ -23,7 +23,9 @@ import UseOnclickOutsideTest from './components/use-outside-click/test';
 // import menus from "./components/tree-view/data";
 import UseWindowResizeTest from './components/use-window-resize/test';
 import Weather from './components/weather-app/weather';
-import './components/weather-app/styles.css';
+//import './components/weather-app/styles.css';
+
+import TwoFactor from './components/Two-factor-code-input/index.jsx';
 
 function App() {
   return (
@@ -91,7 +93,9 @@ function App() {
       {/* <ScrollToSection/> */}
 
       {/* Weather app  */}
-      <Weather />
+      {/* <Weather /> */}
+
+      <TwoFactor/>
 
 
 
