@@ -27,6 +27,8 @@ import Weather from './components/weather-app/weather';
 
 import TwoFactor from './components/Two-factor-code-input/index.jsx';
 
+import MapFilter from './components/MapFilter/index.jsx';
+
 function App() {
   return (
     <div className="App">
@@ -94,8 +96,12 @@ function App() {
 
       {/* Weather app  */}
       {/* <Weather /> */}
+      
+      {/* Two factor code
+      <TwoFactor/> */}
 
-      <TwoFactor/>
+      {/* Map Filter */}
+      <MapFilter/>
 
 
 
