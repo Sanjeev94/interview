@@ -28,6 +28,7 @@ import Weather from './components/weather-app/weather';
 import TwoFactor from './components/Two-factor-code-input/index.jsx';
 
 import MapFilter from './components/MapFilter/index.jsx';
+import StateManager from './components/state-manager/index.jsx';
 
 function App() {
   return (
@@ -101,7 +102,10 @@ function App() {
       <TwoFactor/> */}
 
       {/* Map Filter */}
-      <MapFilter/>
+      {/* <MapFilter/> */}
+
+      {/* state */}
+      <StateManager />
 
 
 
