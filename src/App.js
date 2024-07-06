@@ -32,6 +32,7 @@ import StateManager from './components/state-manager/index.jsx';
 import PropsinReact from './components/props/index.jsx';
 import InlineCondition from './components/Inline-condition/index.jsx';
 import EventHandling from './components/event-handling/index.jsx';
+import KeysinReact from './components/keys-in-react/index.jsx';
 
 function App() {
   return (
@@ -117,7 +118,10 @@ function App() {
        {/* <InlineCondition /> */}
 
        {/* Event handling in react */}
-       <EventHandling />
+       {/* <EventHandling /> */}
+
+       {/* Keys in react */}
+       <KeysinReact />
 
 
 
