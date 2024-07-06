@@ -29,6 +29,7 @@ import TwoFactor from './components/Two-factor-code-input/index.jsx';
 
 import MapFilter from './components/MapFilter/index.jsx';
 import StateManager from './components/state-manager/index.jsx';
+import PropsinReact from './components/props/index.jsx';
 
 function App() {
   return (
@@ -105,7 +106,10 @@ function App() {
       {/* <MapFilter/> */}
 
       {/* state */}
-      <StateManager />
+      {/* <StateManager /> */}
+
+      {/* Props in react */}
+      <PropsinReact />
 
 
 
