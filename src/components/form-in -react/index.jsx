@@ -7,11 +7,13 @@ const ForminReact = () => {
         
         setObjData({...objData, ...data});
     };
-    const submit = () => {
+    const submit = (event) => {
+        event.preventDefault();
         console.log(objData);
     };
   return (
     <div>
+        <form onSubmit={submit}>
         <input placeholder="write your name.." 
         name="name"
         type="text"
@@ -28,7 +30,9 @@ const ForminReact = () => {
         name="date"
         type="date"
          onChange={(event) => getInputs(event.target.value, event.target.name)} />
-        <button onClick={submit}>Submit</button>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        </form>
     </div>
   )
 }
