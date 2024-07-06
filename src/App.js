@@ -35,6 +35,7 @@ import EventHandling from './components/event-handling/index.jsx';
 import KeysinReact from './components/keys-in-react/index.jsx';
 import ForminReact from './components/form-in -react/index.jsx';
 import DynamicinputinReact from './components/dynamic-input-in-react/index.jsx';
+import RestapiRequest from './components/rest-api-request/index.jsx';
 
 function App() {
   return (
@@ -129,7 +130,10 @@ function App() {
        {/* <ForminReact /> */}
 
        {/* Dynamic input in react  */}
-       <DynamicinputinReact />
+       {/* <DynamicinputinReact /> */}
+
+       {/* Rest API Request */}
+       <RestapiRequest />
 
 
 
