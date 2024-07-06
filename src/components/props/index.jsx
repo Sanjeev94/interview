@@ -3,8 +3,9 @@ import Child from './child.jsx'
 
 const PropsinReact = () => {
     const [name, setName] = useState("Sanjeev");
-    const changeName = () => {
-        setName("Dubey");
+    const changeName = (value) => {
+        console.log(value);
+        setName(value);
     }
   return (
     <div>
