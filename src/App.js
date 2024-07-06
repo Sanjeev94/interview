@@ -34,6 +34,7 @@ import InlineCondition from './components/Inline-condition/index.jsx';
 import EventHandling from './components/event-handling/index.jsx';
 import KeysinReact from './components/keys-in-react/index.jsx';
 import ForminReact from './components/form-in -react/index.jsx';
+import DynamicinputinReact from './components/dynamic-input-in-react/index.jsx';
 
 function App() {
   return (
@@ -125,7 +126,10 @@ function App() {
        {/* <KeysinReact /> */}
 
        {/* Form in react  */}
-       <ForminReact />
+       {/* <ForminReact /> */}
+
+       {/* Dynamic input in react  */}
+       <DynamicinputinReact />
 
 
 
