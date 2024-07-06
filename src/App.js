@@ -31,6 +31,7 @@ import MapFilter from './components/MapFilter/index.jsx';
 import StateManager from './components/state-manager/index.jsx';
 import PropsinReact from './components/props/index.jsx';
 import InlineCondition from './components/Inline-condition/index.jsx';
+import EventHandling from './components/event-handling/index.jsx';
 
 function App() {
   return (
@@ -113,7 +114,10 @@ function App() {
       {/* <PropsinReact /> */}
 
        {/* Inline condition */}
-       <InlineCondition />
+       {/* <InlineCondition /> */}
+
+       {/* Event handling in react */}
+       <EventHandling />
 
 
 
