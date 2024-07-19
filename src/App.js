@@ -36,6 +36,7 @@ import KeysinReact from './components/keys-in-react/index.jsx';
 import ForminReact from './components/form-in -react/index.jsx';
 import DynamicinputinReact from './components/dynamic-input-in-react/index.jsx';
 import RestapiRequest from './components/rest-api-request/index.jsx';
+import HighrOrderComponent from './components/hoc/index.js';
 
 function App() {
   return (
@@ -133,7 +134,10 @@ function App() {
        {/* <DynamicinputinReact /> */}
 
        {/* Rest API Request */}
-       <RestapiRequest />
+       {/* <RestapiRequest /> */}
+
+       {/* Higher order function */}
+       <HighrOrderComponent />
 
 
 
