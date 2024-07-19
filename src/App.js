@@ -38,6 +38,8 @@ import DynamicinputinReact from './components/dynamic-input-in-react/index.jsx';
 import RestapiRequest from './components/rest-api-request/index.jsx';
 import HighrOrderComponent from './components/hoc/index.js';
 import LazyLoadinng from './components/lazy-loading/index.js';
+import RecursionInReact from './components/recursion-in-react/index.js';
+import Family from './components/recursion-in-react/Family.js';
 
 function App() {
   return (
@@ -141,7 +143,10 @@ function App() {
        {/* <HighrOrderComponent /> */}
 
        {/* Lazy loading */}
-       <LazyLoadinng />
+       {/* <LazyLoadinng /> */}
+
+       {/* Recursion in react  */}
+       <Family />
 
 
 
