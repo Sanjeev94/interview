@@ -37,6 +37,7 @@ import ForminReact from './components/form-in -react/index.jsx';
 import DynamicinputinReact from './components/dynamic-input-in-react/index.jsx';
 import RestapiRequest from './components/rest-api-request/index.jsx';
 import HighrOrderComponent from './components/hoc/index.js';
+import LazyLoadinng from './components/lazy-loading/index.js';
 
 function App() {
   return (
@@ -137,7 +138,10 @@ function App() {
        {/* <RestapiRequest /> */}
 
        {/* Higher order function */}
-       <HighrOrderComponent />
+       {/* <HighrOrderComponent /> */}
+
+       {/* Lazy loading */}
+       <LazyLoadinng />
 
 
 
