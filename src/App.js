@@ -40,6 +40,7 @@ import HighrOrderComponent from './components/hoc/index.js';
 import LazyLoadinng from './components/lazy-loading/index.js';
 import RecursionInReact from './components/recursion-in-react/index.js';
 import Family from './components/recursion-in-react/Family.js';
+import PromiseAsyncAwait from './components/promise-async-await/index.js';
 
 function App() {
   return (
@@ -146,7 +147,10 @@ function App() {
        {/* <LazyLoadinng /> */}
 
        {/* Recursion in react  */}
-       <Family />
+       {/* <Family /> */}
+
+       {/* promise async and await */}
+       <PromiseAsyncAwait />
 
 
 
