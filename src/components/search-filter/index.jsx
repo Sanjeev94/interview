@@ -25,8 +25,7 @@ function SearchFilter() {
                    );
             }, 1000);
             return () => clearTimeout(searched);
-            
-            
+
         }
         else {
             setUsers(users);
