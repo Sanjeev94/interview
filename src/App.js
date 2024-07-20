@@ -41,6 +41,7 @@ import LazyLoadinng from './components/lazy-loading/index.js';
 import RecursionInReact from './components/recursion-in-react/index.js';
 import Family from './components/recursion-in-react/Family.js';
 import PromiseAsyncAwait from './components/promise-async-await/index.js';
+import SearchFilter from './components/search-filter/index.jsx';
 
 function App() {
   return (
@@ -150,7 +151,10 @@ function App() {
        {/* <Family /> */}
 
        {/* promise async and await */}
-       <PromiseAsyncAwait />
+       {/* <PromiseAsyncAwait /> */}
+
+       {/* Search filter in react */}
+       <SearchFilter />
 
 
 
