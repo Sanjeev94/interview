@@ -42,6 +42,8 @@ import RecursionInReact from './components/recursion-in-react/index.js';
 import Family from './components/recursion-in-react/Family.js';
 import PromiseAsyncAwait from './components/promise-async-await/index.js';
 import SearchFilter from './components/search-filter/index.jsx';
+import TodoList from './components/todo-list/main.jsx';
+
 
 function App() {
   return (
@@ -154,7 +156,10 @@ function App() {
        {/* <PromiseAsyncAwait /> */}
 
        {/* Search filter in react */}
-       <SearchFilter />
+       {/* <SearchFilter /> */}
+
+       {/* Todolist */}
+       <TodoList />
 
 
 
