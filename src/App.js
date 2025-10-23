@@ -1,12 +1,12 @@
 
 import './App.css';
-import FeatureFlags from './components/feature-flag';
-import FeatureFlagGlobalState from './components/feature-flag/context';
-import ScrollToTopAndBottom from './components/scroll-to-top-and-bottom';
-import ScrollToSection from './components/scroll-to-top-and-bottom/scroll-to-section';
-import TicTacToe from './components/tic-tact-toe';
-import UseFetchHookTest from './components/use-fetch/test';
-import UseOnclickOutsideTest from './components/use-outside-click/test';
+// import FeatureFlags from './components/feature-flag';
+// import FeatureFlagGlobalState from './components/feature-flag/context';
+// import ScrollToTopAndBottom from './components/scroll-to-top-and-bottom';
+// import ScrollToSection from './components/scroll-to-top-and-bottom/scroll-to-section';
+// import TicTacToe from './components/tic-tact-toe';
+// import UseFetchHookTest from './components/use-fetch/test';
+// import UseOnclickOutsideTest from './components/use-outside-click/test';
 //import GithubProfileFinder from './components/github-profile-finder';
 //import SearchAutocomplete from './components/search-autocomplete-with-api/index';
 //import ModelTest from './components/custom-model-popup/model-test';
@@ -21,28 +21,30 @@ import UseOnclickOutsideTest from './components/use-outside-click/test';
 //import LoadMoreData from './components/load-more-data';
 // import TreeView from './components/tree-view';
 // import menus from "./components/tree-view/data";
-import UseWindowResizeTest from './components/use-window-resize/test';
-import Weather from './components/weather-app/weather';
+//import UseWindowResizeTest from './components/use-window-resize/test';
+//import Weather from './components/weather-app/weather';
 //import './components/weather-app/styles.css';
 
-import TwoFactor from './components/Two-factor-code-input/index.jsx';
+//import TwoFactor from './components/Two-factor-code-input/index.jsx';
 
-import MapFilter from './components/MapFilter/index.jsx';
-import StateManager from './components/state-manager/index.jsx';
-import PropsinReact from './components/props/index.jsx';
-import InlineCondition from './components/Inline-condition/index.jsx';
-import EventHandling from './components/event-handling/index.jsx';
-import KeysinReact from './components/keys-in-react/index.jsx';
-import ForminReact from './components/form-in -react/index.jsx';
-import DynamicinputinReact from './components/dynamic-input-in-react/index.jsx';
-import RestapiRequest from './components/rest-api-request/index.jsx';
-import HighrOrderComponent from './components/hoc/index.js';
-import LazyLoadinng from './components/lazy-loading/index.js';
-import RecursionInReact from './components/recursion-in-react/index.js';
-import Family from './components/recursion-in-react/Family.js';
-import PromiseAsyncAwait from './components/promise-async-await/index.js';
-import SearchFilter from './components/search-filter/index.jsx';
-import TodoList from './components/todo-list/main.jsx';
+// import MapFilter from './components/MapFilter/index.jsx';
+// import StateManager from './components/state-manager/index.jsx';
+// import PropsinReact from './components/props/index.jsx';
+// import InlineCondition from './components/Inline-condition/index.jsx';
+// import EventHandling from './components/event-handling/index.jsx';
+// import KeysinReact from './components/keys-in-react/index.jsx';
+// import ForminReact from './components/form-in -react/index.jsx';
+// import DynamicinputinReact from './components/dynamic-input-in-react/index.jsx';
+// import RestapiRequest from './components/rest-api-request/index.jsx';
+// import HighrOrderComponent from './components/hoc/index.js';
+// import LazyLoadinng from './components/lazy-loading/index.js';
+// import RecursionInReact from './components/recursion-in-react/index.js';
+// import Family from './components/recursion-in-react/Family.js';
+//import PromiseAsyncAwait from './components/promise-async-await/index.js';
+//import SearchFilter from './components/search-filter/index.jsx';
+//import TodoList from './components/todo-list/main.jsx';
+
+import CinemaSeatBooking from './components/cinema-hall-seat-booking/index.jsx';
 
 
 function App() {
@@ -159,8 +161,22 @@ function App() {
        {/* <SearchFilter /> */}
 
        {/* Todolist */}
-       <TodoList />
+       {/* <TodoList /> */}
 
+       {/* Cinema hall seat booking */}
+       <CinemaSeatBooking 
+       layout = {{
+        rows: 8,
+        seatsPerRows: 12,
+        aislePosition: 5,
+                }}
+        seatTypes = {{
+        regular: { name: "Regular", price: 150, rows: [0,1,2] },
+        platinum: { name: "Platinum", price: 250, rows: [3,4,5] },
+        vip: { name: "VIP", price: 350, rows: [6,7] },
+                    }}
+        />
+ 
 
 
     </div>
